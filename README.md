@@ -31,5 +31,5 @@ The goal of this project is to analyze UK train ride data to understand travel p
 
 ## Project Timeline(Gantt Chart)
 You can review the project schedule and progress in the Gantt chart using the link below:
-(https://link-to-your-gantt-chart.com)
+(https://docs.google.com/spreadsheets/d/1ZY-YIEKkhtWHg1emUjwdrg8tCzkws9FGL4L02y9hS6o/edit?gid=1115838130#gid=1115838130)
 
