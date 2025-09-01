@@ -28,3 +28,8 @@ The goal of this project is to analyze UK train ride data to understand travel p
 - Clean, ready-to-use datasets.
 - Interactive dashboard (Tableau/Power BI).
 - Comprehensive analytical report.
+
+## Project Timeline(Gantt Chart)
+You can review the project schedule and progress in the Gantt chart using the link below:
+(https://link-to-your-gantt-chart.com)
+
