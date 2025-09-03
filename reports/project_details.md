@@ -37,27 +37,27 @@ The goal is to deliver actionable insights and a visualization dashboard for dec
 ---
 ## 4.Functional Requirements
 
-⦁	Show passenger count per train and station.
-⦁	Allow users to filter data by station, day, or ticket type.
-⦁	Display average delays per train or per route.
-⦁	Generate charts and tables automatically based on available data.
+- Show passenger count per train and station.
+-	Allow users to filter data by station, day, or ticket type.
+-	Display average delays per train or per route.
+-	Generate charts and tables automatically based on available data.
 
 ---
 ## 5. Non-Functional Requirements
 
-⦁	Interface must be clear and user-friendly for non-experts.
-⦁	Compatible across devices (laptop, tablet, mobile).
-⦁	Ensure secure and accessible data storage for future analysis.
+-	Interface must be clear and user-friendly for non-experts.
+- Compatible across devices (laptop, tablet, mobile).
+-	Ensure secure and accessible data storage for future analysis.
 
 ---
 ## 6. User Stories
 
-
+Details to be added later.
 
 ---
 ## 7. Case Cases
 
-
+Details to be added later.
 
 ---
 
