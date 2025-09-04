@@ -1,4 +1,4 @@
-# Graduation-Project
+# Graduation Project
 # UK Train Rides Data Analysis
 
 ## Project Summary
