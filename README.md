@@ -26,7 +26,7 @@ The goal of this project is to analyze UK train ride data to understand travel p
 ## Deliverables
 - Project documentation (hosted on GitHub).
 - Clean, ready-to-use datasets.
-- Interactive dashboard (Tableau/Power BI).
+- Interactive dashboard (Tableau).
 - Comprehensive analytical report.
 
 ## Project Timeline(Gantt Chart)
