@@ -18,8 +18,7 @@ This project analyzes UK train ride data to understand travel patterns, identify
 - [Usage](#usage)
 - [Deliverables](#deliverables)
 - [Project Timeline (Gantt)](#project-timeline-gantt)
-- [Contributing](#contributing)
-- [License](#license)
+- [Contributing](#contributing
 
 ## Project Summary
 The goal of this project is to analyze UK train ride data to understand travel patterns, identify potential issues, and provide data-driven recommendations. The project uses data cleaning, exploratory analysis, visualization, and reporting to surface insights for improved service quality and network efficiency.
@@ -101,8 +100,4 @@ Note: If `requirements.txt` is currently minimal or empty, consider adding commo
 You can review the project schedule and progress in the Gantt chart using the link below:
 - [Project Gantt (Google Sheets)](https://docs.google.com/spreadsheets/d/1ZY-YIEKkhtWHg1emUjwdrg8tCzkws9FGL4L02y9hS6o/edit?gid=1115838130#gid=1115838130)
 
-## Contributing
-- Use feature branches and clear commit messages.
-- Document changes in notebooks and reports.
-- Keep data schemas and KPIs consistent across SQL, notebooks, and dashboards.
 
