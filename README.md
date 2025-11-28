@@ -53,27 +53,12 @@ The goal of this project is to analyze UK train ride data to understand travel p
 - [reports/](./reports): Analytical reports and findings
 
 ## Data
-Place raw input files in `data/` and maintain clear naming conventions for:
-- `data/raw/`: Original source files (CSV/Excel/etc.).
-- `data/processed/`: Cleaned and transformed outputs for analysis.
-- `data/external/`: Any external data (weather, events) if applicable.
-
-Recommendation:
-- Add a `data/README.md` describing each dataset, schema, column definitions, units, and data provenance.
-- Include a data dictionary and note any privacy considerations.
+- `data/`: Cleaned and transformed outputs for analysis.
 
 ## Notebooks
 The `notebooks/` directory is the core of this repository (primary language: Jupyter Notebook). Suggested organization:
-- `01_data_collection_and_overview.ipynb`
-- `02_data_cleaning_and_quality_checks.ipynb`
-- `03_exploratory_data_analysis.ipynb`
-- `04_delay_analysis_and_kpis.ipynb`
-- `05_route_demand_and_pricing_analysis.ipynb`
-- `06_dashboard_export_preparation.ipynb`
-
-Best practices:
-- Start each notebook with a short description and dependencies.
-- Save intermediate artifacts to `data/processed/` for reproducibility.
+- `CleanedUKRailways.ipynb`
+- `forecasting.ipynb`
 
 ## Dashboards
 - A README explaining how to open/view the dashboard.
