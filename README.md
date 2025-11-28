@@ -76,19 +76,16 @@ Best practices:
 - Save intermediate artifacts to `data/processed/` for reproducibility.
 
 ## Dashboards
-Place Tableau (or other BI tool) files and exports in [dashboard/](./dashboard). Include:
 - A README explaining how to open/view the dashboard.
 - Screenshots or a published link if available.
 - Notes on data sources and refresh process.
 
 ## SQL
-Store SQL queries in [SQL/](./SQL) for:
 - Data extraction from source systems or staging tables.
-- Aggregations for KPIs (on-time performance, average delay, route utilization).
+- Aggregations for KPIs.
 - Reproducible transformations that align with notebook outputs.
 
 ## Reports
-Use [reports/](./reports) for:
 - Executive summaries of key findings.
 - Methodology and assumptions.
 - KPI definitions and baseline comparisons.
@@ -114,12 +111,6 @@ Note: If `requirements.txt` is currently minimal or empty, consider adding commo
 - Open notebooks in [notebooks/](./notebooks) and run cells sequentially.
 - Ensure paths to data files are correct in each notebook.
 - Export figures and processed data for dashboards and reports.
-
-## Deliverables
-- Project documentation (hosted on GitHub).
-- Clean, ready-to-use datasets.
-- Interactive dashboard (Tableau or similar).
-- Comprehensive analytical report.
 
 ## Project Timeline (Gantt)
 You can review the project schedule and progress in the Gantt chart using the link below:
