@@ -103,7 +103,7 @@ This repo uses Python and Jupyter Notebooks. To set up a local environment:
    - `pip install -r requirements.txt`
 
 Note: If `requirements.txt` is currently minimal or empty, consider adding commonly used packages:
-- `pandas`, `numpy`, `matplotlib`, `seaborn`, `plotly`, `scikit-learn`, `jupyter`, `openpyxl`, `sqlalchemy`
+- `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, `jupyter`, `sqlalchemy`
 
 ## Usage
 - Launch Jupyter:
