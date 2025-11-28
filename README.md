@@ -1,8 +1,28 @@
-# Graduation Project
-# UK Train Rides Data Analysis
+# Graduation Project — UK Train Rides Data Analysis
+
+This project analyzes UK train ride data to understand travel patterns, identify potential operational issues, and provide data-driven recommendations. The work centers on data cleaning, exploratory analysis, visualization, and reporting, with dashboards to highlight key KPIs.
+
+## Table of Contents
+- [Project Summary](#project-summary)
+- [Objectives](#objectives)
+- [Scope](#scope)
+  - [Included](#included)
+  - [Excluded](#excluded)
+- [Repository Structure](#repository-structure)
+- [Data](#data)
+- [Notebooks](#notebooks)
+- [Dashboards](#dashboards)
+- [SQL](#sql)
+- [Reports](#reports)
+- [Environment & Setup](#environment--setup)
+- [Usage](#usage)
+- [Deliverables](#deliverables)
+- [Project Timeline (Gantt)](#project-timeline-gantt)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Project Summary
-The goal of this project is to analyze UK train ride data to understand travel patterns, identify potential issues, and provide data-driven recommendations. The project will use data cleaning, exploratory data analysis (EDA), and visualization techniques to deliver actionable insights for decision-makers and railway operators.
+The goal of this project is to analyze UK train ride data to understand travel patterns, identify potential issues, and provide data-driven recommendations. The project uses data cleaning, exploratory analysis, visualization, and reporting to surface insights for improved service quality and network efficiency.
 
 ## Objectives
 - Collect and clean train ride data to ensure accuracy.
@@ -23,13 +43,93 @@ The goal of this project is to analyze UK train ride data to understand travel p
 - Real-time data streaming or live updates.
 - Integration with external railway systems.
 
+## Repository Structure
+- [README.md](./README.md): Project documentation.
+- [requirements.txt](./requirements.txt): Python dependencies for notebooks and analysis tooling.
+- [data/](./data): Raw and processed datasets (add README or data dictionary as needed).
+- [notebooks/](./notebooks): Jupyter notebooks for cleaning, EDA, feature engineering, modeling, and visualization.
+- [src/](./src): Reusable Python scripts/utilities for data processing and analysis (if used by notebooks).
+- [SQL/](./SQL): SQL scripts for data exploration, extraction, and aggregation.
+- [dashboard/](./dashboard): Dashboard assets or exports (e.g., Tableau workbook, screenshots).
+- [reports/](./reports): Analytical reports and findings (PDF/Markdown or slides).
+
+## Data
+Place raw input files in `data/` and maintain clear naming conventions for:
+- `data/raw/`: Original source files (CSV/Excel/etc.).
+- `data/processed/`: Cleaned and transformed outputs for analysis.
+- `data/external/`: Any external data (weather, events) if applicable.
+
+Recommendation:
+- Add a `data/README.md` describing each dataset, schema, column definitions, units, and data provenance.
+- Include a data dictionary and note any privacy considerations.
+
+## Notebooks
+The `notebooks/` directory is the core of this repository (primary language: Jupyter Notebook). Suggested organization:
+- `01_data_collection_and_overview.ipynb`
+- `02_data_cleaning_and_quality_checks.ipynb`
+- `03_exploratory_data_analysis.ipynb`
+- `04_delay_analysis_and_kpis.ipynb`
+- `05_route_demand_and_pricing_analysis.ipynb`
+- `06_dashboard_export_preparation.ipynb`
+
+Best practices:
+- Start each notebook with a short description and dependencies.
+- Save intermediate artifacts to `data/processed/` for reproducibility.
+
+## Dashboards
+Place Tableau (or other BI tool) files and exports in [dashboard/](./dashboard). Include:
+- A README explaining how to open/view the dashboard.
+- Screenshots or a published link if available.
+- Notes on data sources and refresh process.
+
+## SQL
+Store SQL queries in [SQL/](./SQL) for:
+- Data extraction from source systems or staging tables.
+- Aggregations for KPIs (on-time performance, average delay, route utilization).
+- Reproducible transformations that align with notebook outputs.
+
+## Reports
+Use [reports/](./reports) for:
+- Executive summaries of key findings.
+- Methodology and assumptions.
+- KPI definitions and baseline comparisons.
+- Recommendations for operations and customer experience.
+
+## Environment & Setup
+This repo uses Python and Jupyter Notebooks. To set up a local environment:
+
+1. Ensure Python 3.9+ is installed.
+2. Create and activate a virtual environment:
+   - `python -m venv .venv`
+   - Windows: `.venv\Scripts\activate`
+   - macOS/Linux: `source .venv/bin/activate`
+3. Install dependencies:
+   - `pip install -r requirements.txt`
+
+Note: If `requirements.txt` is currently minimal or empty, consider adding commonly used packages:
+- `pandas`, `numpy`, `matplotlib`, `seaborn`, `plotly`, `scikit-learn`, `jupyter`, `openpyxl`, `sqlalchemy`
+
+## Usage
+- Launch Jupyter:
+  - `jupyter notebook` or `jupyter lab`
+- Open notebooks in [notebooks/](./notebooks) and run cells sequentially.
+- Ensure paths to data files are correct in each notebook.
+- Export figures and processed data for dashboards and reports.
+
 ## Deliverables
 - Project documentation (hosted on GitHub).
 - Clean, ready-to-use datasets.
-- Interactive dashboard (Tableau).
+- Interactive dashboard (Tableau or similar).
 - Comprehensive analytical report.
 
-## Project Timeline(Gantt Chart)
+## Project Timeline (Gantt)
 You can review the project schedule and progress in the Gantt chart using the link below:
-(https://docs.google.com/spreadsheets/d/1ZY-YIEKkhtWHg1emUjwdrg8tCzkws9FGL4L02y9hS6o/edit?gid=1115838130#gid=1115838130)
+- [Project Gantt (Google Sheets)](https://docs.google.com/spreadsheets/d/1ZY-YIEKkhtWHg1emUjwdrg8tCzkws9FGL4L02y9hS6o/edit?gid=1115838130#gid=1115838130)
 
+## Contributing
+- Use feature branches and clear commit messages.
+- Document changes in notebooks and reports.
+- Keep data schemas and KPIs consistent across SQL, notebooks, and dashboards.
+
+## License
+Specify your license here (e.g., MIT) if applicable.
