@@ -52,7 +52,8 @@ The goal of this project is to analyze UK train ride data to understand travel p
 - [reports/](./reports): Analytical reports and findings
 
 ## Data
-- `data/`: Cleaned and transformed outputs for analysis.
+- `data/raw/`: Original source files.
+- `data/processed/`: Cleaned and transformed outputs for analysis.
 
 ## Notebooks
 The `notebooks/` directory is the core of this repository (primary language: Jupyter Notebook). Suggested organization:
