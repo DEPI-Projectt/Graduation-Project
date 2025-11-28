@@ -16,9 +16,7 @@ This project analyzes UK train ride data to understand travel patterns, identify
 - [Reports](#reports)
 - [Environment & Setup](#environment--setup)
 - [Usage](#usage)
-- [Deliverables](#deliverables)
 - [Project Timeline (Gantt)](#project-timeline-gantt)
-- [Contributing](#contributing
 
 ## Project Summary
 The goal of this project is to analyze UK train ride data to understand travel patterns, identify potential issues, and provide data-driven recommendations. The project uses data cleaning, exploratory analysis, visualization, and reporting to surface insights for improved service quality and network efficiency.
