@@ -46,12 +46,11 @@ The goal of this project is to analyze UK train ride data to understand travel p
 ## Repository Structure
 - [README.md](./README.md): Project documentation.
 - [requirements.txt](./requirements.txt): Python dependencies for notebooks and analysis tooling.
-- [data/](./data): Raw and processed datasets (add README or data dictionary as needed).
+- [data/](./data): Raw and processed datasets 
 - [notebooks/](./notebooks): Jupyter notebooks for cleaning, EDA, feature engineering, modeling, and visualization.
-- [src/](./src): Reusable Python scripts/utilities for data processing and analysis (if used by notebooks).
-- [SQL/](./SQL): SQL scripts for data exploration, extraction, and aggregation.
-- [dashboard/](./dashboard): Dashboard assets or exports (e.g., Tableau workbook, screenshots).
-- [reports/](./reports): Analytical reports and findings (PDF/Markdown or slides).
+- [SQL/](./SQL): SQL scripts for data exploration, extraction, and aggregation. In addition to the backup file for the database.
+- [dashboard/](./dashboard): Dashboard assets or exports 
+- [reports/](./reports): Analytical reports and findings
 
 ## Data
 Place raw input files in `data/` and maintain clear naming conventions for:
@@ -131,5 +130,3 @@ You can review the project schedule and progress in the Gantt chart using the li
 - Document changes in notebooks and reports.
 - Keep data schemas and KPIs consistent across SQL, notebooks, and dashboards.
 
-## License
-Specify your license here (e.g., MIT) if applicable.
