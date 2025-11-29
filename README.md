@@ -54,7 +54,7 @@ The goal of this project is to analyze UK train ride data to understand travel p
 - `data/processed/`: Cleaned and transformed outputs for analysis.
 
 ## Notebooks
-The `notebooks/` directory is the core of this repository (primary language: Jupyter Notebook). Suggested organization:
+The `notebooks/` directory is the core of this repository (primary language: Jupyter Notebook):
 - `CleanedUKRailways.ipynb`
 - `forecasting.ipynb`
 
