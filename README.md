@@ -99,4 +99,8 @@ Note: If `requirements.txt` is currently minimal or empty, consider adding commo
 You can review the project schedule and progress in the Gantt chart using the link below:
 - [Project Gantt (Google Sheets)](https://docs.google.com/spreadsheets/d/1ZY-YIEKkhtWHg1emUjwdrg8tCzkws9FGL4L02y9hS6o/edit?gid=1115838130#gid=1115838130)
 
+## Dashboard Overview
+![Sales Dashboard](./images/Revenue.png)
+
+
 
