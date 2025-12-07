@@ -59,9 +59,14 @@ The `notebooks/` directory is the core of this repository (primary language: Jup
 - `forecasting.ipynb`
 
 ## Dashboards
-- A README explaining how to open/view the dashboard.
-- Screenshots or a published link if available.
-- Notes on data sources and refresh process.
+- Sales Dashboard
+![Sales Dashboard](./images/Revenue.png)
+- Passengers Dashboard
+![Passengers Dashboard](./images/Passengers.png)
+- Refunds Dashboard
+![Refunds Dashboard](./images/Refunds.png)
+- Operational Logic Dashboard
+![Operational logic Dashboard](./images/Operational.png)
 
 ## SQL
 - Data extraction from source systems or staging tables.
